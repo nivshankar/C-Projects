@@ -8,7 +8,7 @@ int main()
 }
 /*
 Output:
-Enter TEmperature in Celsius:
+Enter Temperature in Celsius:
 67
 The temperature in farenheit is: 152.60
 */
