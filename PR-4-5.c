@@ -7,7 +7,7 @@ int main()
 		for(k=1;k<i;k++)
 		printf("  ");
 		for(j=i;j<=5;j++)
-		{//first half of pyramid
+		{
 			printf("%d ",j);
 		}
 		for(a=4;a>=i;a--)
