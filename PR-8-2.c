@@ -21,7 +21,7 @@ void Array()
 		for(int j=0;j<n;j++)
 		{
 			ptr[i][j]=&arr[i][j];
-			*ptr[i][j]=arr[i][j]*arr[i][j];
+			*ptr[i][j]=arr[i][j]*arr[i][j]*arr[i][j];
 			printf("%d ",*ptr[i][j]);
 		}
 		printf("\n\t");
@@ -49,8 +49,8 @@ Output:
         arr[2][2] = 9
 
         Cube of all elements :
-        1 4 9
-        16 25 36
-        49 64 81
+        1 8 27
+        64 125 216
+        343 512 729
 
 */
